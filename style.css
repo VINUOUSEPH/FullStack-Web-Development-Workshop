@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+
+    padding: 10px 100px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: aqua;
+    background-color: black;
+}
+
+
+
+#vi{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+
+}
+.Eventcard{
+    width: 250px;
+    box-shadow: 0px 8px 8px black;
+    padding: 80px;
+    text-align: center;
+}
+.ab{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: aqua;
+    background-color: black;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+
+/*Event details page starts here*/
+
+.bb{
+    width: 600px;
+    display: block;
+    width: 100%;
+    
+    text-align: center;
+}
+#event{
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    font-size: 40px;
+
+}
+#m{
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    width: 100px;
+    text-align: center;
+    margin-left: 250px;
+}
+.apply input,.apply label{
+    display: block;
+    width: 100%;
+    
+    text-align: center;
+
+}
+
+#nu{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+#sh{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+}
